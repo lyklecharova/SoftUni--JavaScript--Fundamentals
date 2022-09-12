@@ -7,4 +7,3 @@ function foreignLanguages(countryName){
         console.log("unknown");
     }
 }
-foreignLanguages("Argentina")
