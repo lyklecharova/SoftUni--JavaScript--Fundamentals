@@ -41,4 +41,3 @@ function monthPrinter(month){
             break;
     }
 }
-monthPrinter(54)
