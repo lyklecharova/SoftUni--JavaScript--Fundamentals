@@ -5,4 +5,3 @@ function divisibleByThree(){
         }
     }
 }
-divisibleByThree()
