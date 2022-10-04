@@ -25,5 +25,4 @@ function numbers(array) {
         let sorted = arr.sort((a, b) => b - a);
         console.log(sorted.join(' '));
     }
-
 }
