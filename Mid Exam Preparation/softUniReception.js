@@ -7,21 +7,21 @@ function softUniReception(input) {
     let studentsPerHour = firstEmploy + secondEmploy + thirdEmploy;
     let hours = 0;
 
-    // for (i = 1; i <= studentsCount; i++) {
+    for (let i = 0; studentsCount > 0; i++) {
+        hours++;
+        if (hours % 4 === 0) {
+            hours++;
+        }
+
+        studentsCount -= studentsPerHour;
+    }
+
+    // while (studentsCount > 0) {
     //     hours++;
     //     if (hours % 4 === 0) {
     //         continue;
     //     }
-
     //     studentsCount -= studentsPerHour;
     // }
-
-    while (studentsCount > 0) {
-        hours++;
-        if (hours % 4 === 0) {
-            continue;
-        }
-        studentsCount -= studentsPerHour;
-    }
     console.log(`Time needed: ${hours}h.`)
 }
