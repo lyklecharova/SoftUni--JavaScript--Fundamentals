@@ -22,3 +22,7 @@ console.log('removed car', lastCar);
 let currentCarCount = cars.push('Honda');
 console.log(cars);
 console.log('Current car count =  ', currentCarCount);
+
+// Remove last element without pop()
+cars.length = cars.length - 1;
+console.log(cars);
